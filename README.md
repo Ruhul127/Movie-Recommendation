@@ -30,7 +30,7 @@ movie-recommendation/
 │   │   ├── no_recommendations.html # ❌ No recommendations template
 │   │
 │   ├── static/
-│   │   ├── styles.css              # 🎨 CSS for the application
+│   │   ├── style.css              # 🎨 CSS for the application
 │   │
 │   ├── app.py                      # 🐍 Main Python application
 │
