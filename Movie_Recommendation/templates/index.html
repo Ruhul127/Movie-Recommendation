@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Search</h2>
+            <form action="/recommend" method="post">
+                <label for="movie">Enter a movie title:</label>
+                <input type="text" id="movie" name="movie">
+                <button type="submit">Get Recommendations</button>
+            </form>
+            <form action="/recommend_by_genre" method="post">
+                <label for="genre">Or select a genre:</label>
+                <input type="text" id="genre" name="genre">
+                <button type="submit">Get Genre Recommendations</button>
+            </form>
+        </div>
+        <div class="right">
+            <h2>Top Rated Movies</h2>
+            <div class="grid">
+                {% for movie in top_movies %}
+                <div class="movie-card">
+                    <h3>{{ movie.title }}</h3>
+                    <p>{{ movie.genres }}</p>
+                    <p>Rating: {{ movie.rating }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

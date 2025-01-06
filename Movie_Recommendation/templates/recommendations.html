@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="recommendation-container">
+        <div class="recommendation-left">
+            <h2>Recommendations for {{ type.capitalize() }} "{{ query }}"</h2>
+            <a href="/">Back to Home</a>
+        </div>
+        <div class="recommendation-right">
+            {% for rec in recommendations %}
+            <div class="movie-card">
+                <h3>{{ rec.title }}</h3>
+                <p>{{ rec.genres }}</p>
+                <p>Rating: {{ rec.rating }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
