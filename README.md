@@ -21,7 +21,7 @@ This project is a web-based **movie recommendation system** built using Flask. I
 The project has the following structure:  
 
 ```
-movie-recommendation-system/
+movie-recommendation/
 │
 ├── app/
 │   ├── templates/
@@ -39,10 +39,9 @@ movie-recommendation-system/
 │   ├── ratings.csv                 # 📁 Ratings dataset
 │
 ├── assets/
-│   ├── Project_example1.PNG        
-│   ├── Project_example2.PNG
-│   ├── Project_example3.PNG
-│
+│   ├── Project_example1.PNG        # 📸 Home Page Screenshot
+│   ├── Project_example2.PNG        # 📸 Recommendations Page Screenshot
+│   ├── Project_example3.PNG        # 📸 Genre Recommendations Screenshot
 └── 
 ```
 
@@ -115,12 +114,15 @@ The project uses the following libraries:
 
 1. **Home Page**  
    Displays top-rated movies and forms for searching by title or genre.  
+   ![Home Page](assets/Project_example1.PNG)  
 
 2. **Movie Recommendations Page**  
    Shows recommended movies based on user input.  
+   ![Movie Recommendations Page](assets/Project_example2.PNG)  
 
 3. **Genre Recommendations Page**  
-   Shows genre recommended movies based on user input. 
+   Shows genre-recommended movies based on user input.  
+   ![Genre Recommendations Page](assets/Project_example3.PNG)  
 
 ---
 
@@ -129,4 +131,4 @@ The project uses the following libraries:
 - **📊 Datasets**: Movies and ratings data are sourced from the [MovieLens dataset](https://grouplens.org/datasets/movielens/).  
 - **🛠️ Framework**: Built using [Flask](https://flask.palletsprojects.com/).  
 
----
+---  
