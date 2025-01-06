@@ -54,8 +54,8 @@ Follow these steps to set up and run the project:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository/movie-recommendation-system.git
-cd movie-recommendation-system
+git clone https://github.com/your-repository/Movie-Recommendation.git
+cd Movie-Recommendation
 ```
 
 ### 2️⃣ Set Up a Virtual Environment
@@ -113,16 +113,19 @@ The project uses the following libraries:
 ## 📸 Screenshots  
 
 1. **Home Page**  
-   Displays top-rated movies and forms for searching by title or genre.  
-   ![Home Page](assets/Project_example1.PNG)  
+   Displays top-rated movies and forms for searching by title or genre.
+   
+   ![Home Page](Movie_Recommendation/assets/Project_example1.PNG)  
 
-2. **Movie Recommendations Page**  
-   Shows recommended movies based on user input.  
-   ![Movie Recommendations Page](assets/Project_example2.PNG)  
+3. **Movie Recommendations Page**  
+   Shows recommended movies based on user input.
+   
+   ![Movie Recommendations Page](Movie_Recommendation/assets/Project_example2.PNG)  
 
-3. **Genre Recommendations Page**  
-   Shows genre-recommended movies based on user input.  
-   ![Genre Recommendations Page](assets/Project_example3.PNG)  
+4. **Genre Recommendations Page**  
+   Shows genre-recommended movies based on user input.
+   
+   ![Genre Recommendations Page](Movie_Recommendation/assets/Project_example3.PNG)  
 
 ---
 
